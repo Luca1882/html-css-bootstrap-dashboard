@@ -60,9 +60,30 @@
     <!--Second Row-->
         <div class="mt-2">
             <label for="titolo" class="form-label">Titolo</label>
-            <input type="titolo" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro">
+            <input type="text" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro">
             <div id="titolo" class="form-text">Titolo versione italiana</div>
         </div>
+    <!--Terzo Row a 3 Colonne-->
+    <div class="row g-3 mt-3">
+        <div class="col-sm-4">
+            <label for="genere" class="form-label">Genere</label>
+            <select class="form-select" aria-label="genere">
+                <option selected>Scegli il genere</option>
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="heavy metal">Heavy Metal</option>
+              </select>
+        </div>
+            <div class="col-sm-4">
+                <label for="anno-di-pubblicazione" class="form-label">Anno di Pubblicazione</label>  
+                <input type="number" class="form-control" id="anno" placeholder="Inserisci l'anno">
+            </div>
+            <div class="col-sm">
+                <label for="isbn" class="form-label">#ISBN</label>  
+                <input type="number" class="form-control" placeholder="Inserisci il codice #ISBN">
+            </div>
+        </div>
+        <hr class="mt-5 border-1">
     </div>
 </body>
 
